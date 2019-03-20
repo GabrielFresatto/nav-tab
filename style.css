@@ -1,0 +1,47 @@
+ /* nav tab */
+
+ .nav-tab {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+.nav-tab li {
+     display: inline-block;
+     border-bottom: 1px solid #f49a6d;
+     margin-left: -5px;
+     padding: .3rem 0.5rem;
+}
+
+.nav-tab li a{
+     text-decoration: none;
+     color: #000;
+}
+
+
+.nav-tab li.active {
+    border-bottom: 3px solid #f49a6d;
+}
+
+.tab-content .tab-panel {
+     display: none;
+}
+
+.tab-content .tab-panel.active {
+     display: block;
+     color: #000 !important;
+}
+
+/* Reset do metro */
+.tab-content {
+     border: none !important;
+     padding: 0;
+     padding-top: 1rem;
+     background-color: transparent;
+     background-color: none !important;
+}
+
+.tab-content label {
+     font-size: 10px;
+     text-transform: uppercase;
+}
